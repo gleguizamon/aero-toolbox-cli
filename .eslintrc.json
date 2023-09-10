@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint:recommended"],
+  "ignorePatterns": ["node_modules/**", "build/**"],
+  "env": { "node": true },
+  "rules": {
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "strict": ["error", "global"],
+    "no-unused-vars": "error",
+    "indent": ["error", 2],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-process-exit": "off"
+  }
+}

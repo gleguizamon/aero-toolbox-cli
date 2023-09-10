@@ -1,0 +1,24 @@
+{
+  "name": "aero-toolbox-cli",
+  "version": "1.0.0",
+  "bin": {
+    "aero-toolbox-cli": "./bin/aero-toolbox-cli.js"
+  },
+  "description": "Some usefull functions to perform aeronautical computations",
+  "main": "./bin/aero-toolbox-cli.js",
+  "scripts": {
+    "test": "test",
+    "lint": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "author": "gleguizamon",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "ramda": "^0.29.0",
+    "yargs": "^17.7.2"
+  }
+}
